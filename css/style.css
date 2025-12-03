@@ -1,7 +1,17 @@
+:root {
+--principal:#c14cf5 ;
+--secundaria:#d166f8 ;
+--terceira:#e080fa;
+--quarta:#f099fd;
+--quinta:#ffb3ff;
+/* Para utilizá-las deve-se usar o termo 'var()' */
+/* ex: color: var(--principal) */
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #7c5e99;
+    background-color: #cb2df7;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
 }
@@ -25,7 +35,7 @@ header nav a {
 
 a::before {
     content: "";
-    background-color: #f25a70;
+    background-color: #ff8fff;
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -33,17 +43,18 @@ a::before {
 
 #button {
     display: inline-block;
-    background-color: #f25a70;
+    background-color: #ba0cf4;
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
     line-height: 60px;
     box-shadow:  5px 5px 0px #000;
     margin-right: 0;
-    transition: 200ms;
+    transition: transform 200ms linear;
 }
 
 #button:hover {
     transform: translateY(-2px);
-    background-color: #f5445f;
+    background-color: #dd4efa;
+    cursor: pointer;
 }
