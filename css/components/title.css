@@ -1,0 +1,6 @@
+.conteudo-banner h1 {
+    color: var(--quinta);
+    text-shadow: 5px 5px 0px #000;
+    margin-bottom: 10px;
+    font-size: 40px;
+}

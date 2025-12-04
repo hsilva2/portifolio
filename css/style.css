@@ -67,7 +67,6 @@ a::before {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-
 }
 
 .conteudo-banner {
@@ -81,15 +80,10 @@ a::before {
     top: 80px;
     left: 80px;
 }
-.conteudo-banner h1 {
-    color: var(--quinta);
-    text-shadow: 2px 2px 0px #000;
-    margin-bottom: 10px;
-}
 
 #container-btns {
     position: absolute;
-    top: 220px;
+    top: 225px;
     left: 130px;
 }
 
