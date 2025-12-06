@@ -73,18 +73,28 @@ a::before {
     position: absolute;
     color: #fff;
     background-color: var(--principal);
-    padding: 20px;
+    padding: 30px 0px;
+    width: 600px;
+    height: auto;
     box-shadow: 5px 5px 0px var(--secundaria);
     font-family: "Press Start 2P",sans-serif;
     text-align: center;
     top: 80px;
     left: 80px;
+    box-sizing: border-box;
+
 }
 
 #container-btns {
     position: absolute;
-    top: 225px;
-    left: 130px;
+    top: 250px;
+    left: 80px;
+    padding: 30px 0px;
+    width: 600px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-banner {
