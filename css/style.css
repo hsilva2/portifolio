@@ -59,17 +59,17 @@ a::before {
     cursor: pointer;
 }
 
-.container-Banner {
+/* .container-Banner {
+    position: relative;
     width: 100%;
     height: 500px;
     background-image: url('https://assets.skatevideo.site/covers/adidas-folkets-by-heitor-da-silva-26051.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
-}
+} */
 
-.conteudo-banner {
+/* .conteudo-banner {
     position: absolute;
     background-color: var(--principal);
     padding: 30px 0px;
@@ -82,7 +82,7 @@ a::before {
     left: 80px;
     box-sizing: border-box;
 
-}
+} */
 
 #container-btns {
     position: absolute;

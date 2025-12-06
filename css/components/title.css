@@ -1,6 +1,7 @@
-.conteudo-banner h1 {
+h1 {
     color: var(--quinta);
     text-shadow: 5px 5px 0px #000;
     margin-bottom: 10px;
     font-size: 40px;
+    font-family: "Press Start 2P",sans-serif;
 }
