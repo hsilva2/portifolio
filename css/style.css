@@ -71,7 +71,6 @@ a::before {
 
 .conteudo-banner {
     position: absolute;
-    color: #fff;
     background-color: var(--principal);
     padding: 30px 0px;
     width: 600px;
