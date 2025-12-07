@@ -1,0 +1,11 @@
+:root {
+--principal:#c14cf5 ;
+--secundaria:#d166f8 ;
+--terceira:#e080fa;
+--quarta:#f099fd;
+--quinta:#ffb3ff;
+/* Para utilizá-las deve-se usar o termo 'var()' */
+/* ex: color: var(--principal) */
+}
+
+
