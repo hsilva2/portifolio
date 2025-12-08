@@ -3,7 +3,7 @@
     font-family: "Fira Code", sans-serif;
     font-size: 20px;
     font-weight: 500;
-    background-color: #ba0cf4;
+    background-color: var(--principal);
     height: 60px;
     padding-left: 20px;
     padding-right: 20px;
@@ -17,7 +17,7 @@
 
 .button:hover {
     transform: translateY(-2px);
-    background-color: #dd4efa;
+    background-color:var(--secundaria);
     color: #000;
     cursor: pointer;
 }

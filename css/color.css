@@ -1,4 +1,15 @@
 :root {
+--principal:#14dfe6;
+--secundaria:#0fccd4 ;
+--terceira:#0abac1;
+--quarta:#05a7af;
+--quinta:#00949c;
+
+/* Para utilizá-las deve-se usar o termo 'var()' */
+/* ex: color: var(--principal) */
+}
+
+/* :root {
 --principal:#c14cf5 ;
 --secundaria:#d166f8 ;
 --terceira:#e080fa;
@@ -6,6 +17,5 @@
 --quinta:#ffb3ff;
 /* Para utilizá-las deve-se usar o termo 'var()' */
 /* ex: color: var(--principal) */
-}
-
+/* } */
 
