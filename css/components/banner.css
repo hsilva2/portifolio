@@ -1,0 +1,26 @@
+.banner {
+    background-image: url(../../assets/img/banner5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 430px;
+    background-position: center center;
+    border-bottom: 10px solid #615b5b;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+}
+
+.banner .box {
+    margin-bottom: 40px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
