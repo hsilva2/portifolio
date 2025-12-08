@@ -1,7 +1,6 @@
 .box {
     display: inline-block;
     background-color: var(--principal);
-    /* background-color: rgba(0, 0, 0, 0.9); */
     opacity: -10px;
     padding: 42px 44px;
     box-shadow: 10px 10px 0 var(--secundaria);
