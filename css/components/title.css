@@ -5,3 +5,9 @@
     font-size: 40px;
     font-family: "Press Start 2P",sans-serif;
 }
+
+.title.-second {
+    text-shadow: none;
+    color: #fff;
+    text-align: center;
+}
